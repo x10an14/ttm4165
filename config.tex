@@ -1,0 +1,30 @@
+% !TEX root = ./report.tex
+
+\usepackage[numbers,comma]{natbib}
+
+\usepackage{enumerate}		%For getting different types of lists like a) II) and so forth.
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}	%For norwegian letters and UTF8 encoding support
+\usepackage{lastpage}		%For the command \pageref{lastpage}
+
+\usepackage[english]{babel}	%For filltext in conjunction with blindtext
+\usepackage{blindtext}		%For filltext (see comment for babel)
+
+\usepackage{xargs}	% Use more than one optional parameter in a new commands
+\usepackage[colorinlistoftodos,prependcaption]{todonotes} %For \todo
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+
+\usepackage[colorlinks]{hyperref}	%For \url{}
+\hypersetup{linkcolor=black}
+\hypersetup{citecolor=black}
+\hypersetup{urlcolor=black}
+
+\usepackage{datetime}		%For \newdateformat
+\newdateformat{CurMonth}{\monthname[\THEMONTH],~\THEYEAR}
+
+\makeatletter

@@ -1,0 +1,15 @@
+## Sublime Text Files:
+*.sublime-*
+
+## Report Output PDFs:
+report.pdf
+
+## Sublime PDF compilation support files:
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
