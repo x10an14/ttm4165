@@ -3,37 +3,65 @@
 
 \begin{document}
 
-\title{The effects and consequences of Moore's Law in the 2000s and going forward on the IT~business.}
+\title{The effects and consequences of Moore's Law post-2000.}
 \author{Christian~Chavez}
 
 \maketitle
 
+\section*{Moore's Law}
+
 Moore's Law~\cite{Moore:2000:CMC:333067.333074} originates from Moore's prediction back in 1965 with the consequence that the sizes of circuits in microchips would halve every 18 months, resulting in price drops on computer equipment with every corresponding new generation of microchips (containing the double amount of transistors, thus easing the increase of clock speed on the microchips).
+In the 1960-1990 decades, with each generation of new hardware, the hardware almost doubled the frequency of its processing cycles, enabling software written for earlier generations of hardware to nearly double with the next generation hardware, with no effort required from the software developers.
 
-In the 1960-1990 decades, as the hardware almost doubled the frequency of its processing cycles, enabling software written for earlier generations of hardware to nearly double with the next generation hardware, with no effort required from the software developers.
+However, this did not last for long, as the cost of new factories/hardware needed to produce computer hardware at smaller sizes\footnote{Following the prediction of Moore's Law.} got prohibitively more and more expensive.
+As a matter of fact, nanometer hardware production facilities began costing exponentially more for each hardware generation, far outweighing the doubled gain of processor frequency/amount of transistors on the microchip.
+Later, this became known as Moore's second Law, as well as Rock's Law~\cite{Ross:2003:EC:965307.965316}.
 
-However, this did not last for long, as the cost of new factories/hardware needed to produce computer hardware at smaller sizes\footnote{Following the prediction of Moore's Law.} got prohibitively more and more expensive. As a matter of fact, nanometer hardware production facilities began costing exponentially more for each hardware generation, far outweighing the doubled gain of processor frequency/amount of transistors on the microchip. This is became known as Moore's second Law, as well as Rock's Law~\cite{Ross:2003:EC:965307.965316}.
+This limit imposed by nanometer technology, not to mention its cost, is also why the end of Moore's Law has been prophesized, announced, and declared many a time over the last decades.
 
-The limit imposed by nanometer technology, not to mention its cost, is also why the end of Moore's Law has been prophesized, announced, and declared many a time over the last decades.
+\section*{It's influence on the IT industry}
 
-Thus,  enabled the rise of the computer industry, becoming the giant we know it to be today.
-The repeating cycle of better hardware, at lower cost, enabled hardware companies like Intel and AMD to persevere.
-Others tried the same, but companies such as Nvidia, IBM, and Sun did not manage to achieve the same success, while others again died out in the competition.
+Hence, this enabled the rise of the computer industry, becoming the giant we know it to be today.
+The repeating cycle of better hardware, at lower cost, enabled hardware companies like Intel\footnote{Intel bet their business plans on Moore's Law prediction's holding true throughout several decades, as a matter of fact\cite{IntelMoore'sLawIn10nm,Moore40,Moore50}.} to persevere.
+Others tried the same, but companies such as AMD, Nvidia, IBM, and Sun did not manage to achieve the same success, while others again died out in the wake of their competition.
 Yet, hardware companies were not the only ones to profit from Moore's Law.
 The IT industry of \emph{today} is known for its software giants, such as Google, Microsoft, Linux.
 
-Thus, this is one of the reasons why software production was comparatively cheaper pre-2000, compared to the cost of producing a comparably sized software project post-2000.
-The software developers pre-2000 did not need to account for the myriad of different hardware architectures that exist today (let alone software- architectures/libraries/languages), and their code performed noticeably faster with each new generation of hardware.
+One can safely say that the effect(s) (or conversely; consequences) of Moore's Law has had a massive impact on the IT industry.
+Nothing of the industry, as we know it today, would exist without the ability of our current technology to cram so many transistors into Integrated Circuits (ICs).
+We would not have the Internet as we know it today, if only due to the hardware requirements for a simple router would be way out of reach for the average private consumer.
 
-Post-2000 consumers, in private and business sectors alike, rarely, if ever, notice an improvement in the required run-time for the same code on a new generation of hardware.
+\section*{It's influence on our Markets and Society}
 
-While \todo{insert references}some have predicted its end to occur in the last two decades or so, others~\todo{insert more references}\cite{Moore40,Moore50} still maintain that it carries well with age. What cannot be denied is that Moore's Law made a good match with the exponential growth of clock speed on affordable electronics in the years from the late 1960s till late 1990s.
+This, in turn, has had a big impact on any society on Earth.
+From rich Western societies, `till the poorest villages in Africa, the spread of the Internet, not to mention computerized appliances (of which the smart-phone is a great late example of), the consequential effects of Moore's Law has transformed our world as a whole.
+No society (that we know of) has been left untouched by Moore's Law through the passage of time.
 
-The ones \todo{figure out what to write here}\textit{\textbf{X}} who have called for the end of Moore's law, often list the following reasons for its come/coming demise:
+With the IT industry having gotten such a foothold as a pillar of today's societies, it is a natural consequence that both local and global markets are heavily affected by (if not invested in) the IT industry.
+The top stocks of the stock markets today hold names such as Google, Facebook, Intel, and Apple\cite{ITstockMarkets}.
+Any rise and fall in the IT/Tech industry can have immense global consequences, and many draw correlations between the stock market climate of today, and the stock market climate of 1999, in fear of a another tech stock market bubble\cite{TechBubbleBursting}.
 
-\begin{enumerate}[1)]
-	\item The
-\end{enumerate}
+Social network companies, like Facebook, have an extra foothold\cite{FacebookInternetAfrica} in our societies in this day and age.
+With the information people freely give (and some information Facebook attempts to force people to give\cite{FacebookRealNamePolicyConsequences}), the consequences if the information held by the company ended up in the wrong hands, becoming maliciously used, could spell societal disaster.
+
+Many an unsuspecting employee, friend, family member has been fired, ostracized, or even persecuted for releasing information about their sexual orientation, gender, ethnicity, as well as the more understandable slurs they may spout.
+
+\section*{The continuing consequences and effects of Moore's Law going forward}
+
+Post-2000, Moore's Law has heavily affected the IT industry, our societies and markets, as we've gone through so far in this essay.
+
+With the diminishing returns of having new hardware executing the same code noticeably more efficient, the IT industry has had to move from waterfall methods\cite{FromWaterfallToAgile}, and had to learn to become more agile\cite{AgileVsWaterfall}, both in hardware and software development.
+Another reason why software development has become more expensive, can be accredited to Wirth's Law\cite{TheGreatMoore'sLawCompensator}.
+Wirth's Law states that ``Software gets slower faster than hardware gets faster'', implying that as new generations of hardware give more resources for software to utilize, each corresponding generation of software requires more resources than the hardware delivers\footnote{This being one of the bigger reasons for push towards multi-core parallelism, as it's implementation on the hardware side became cheaper than keeping up with the single-core, single-thread performance expectations for each new hardware generation.}.
+
+The IT industry having become so well established as one of the consequences of Moore's Law, there now exist a plethora of smaller companies who might become the next Intel, Google, Apple, or Microsoft in technologies like embedded devices, operating systems, compilers, web browsers, and etc.
+Companies like Netflix, Spotify, the Raspberry PI Foundation, Facebook, and Silicon Labs all have the origins of their current, well-known form in the decade of 2010, 45 years since Moore's Law was first proposed. While one can never predict the future with any accuracy, it's a safe statement that the consequences Moore's Law still has some effects today, if only due to the movement of the IT into the cloud\cite{Moore'sLawCloudPricing}.
+
+And who is to say that not-yet invented applications deriving from the consequences/effects of Moore' Law cannot help with more humane needs\cite{Moore'sLawTurns50}, such as overcrowding and water supply?
+Yet, Moore himself\cite{MooreSpeculates} does not think that his Law will last forever.
+He even states that he thought extrapolating 10 years into the future (which was what his original paper did) was ``pretty wild'', and that it took him two decades before he managed to utter ``Moore's Law'' himself with a straight face.
+
+So while even the famous Gordon E. Moore himself does not dare to attempt another prediction at what comes next, there's always the possibility that a new innovation either brings forth a new Law, or enables the continuation of Moore's Law\cite{FutureForTransistor}.
 
 \clearpage
 \bibliographystyle{unsrtnat}
